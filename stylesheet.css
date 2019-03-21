@@ -1,0 +1,91 @@
+html {
+	background: #1e557a;
+	color: #202020;
+}
+
+div {
+	font-family: "Arial", Geneva, sans-serif;
+	margin: auto;
+}
+
+p {
+	font-size: 1em;
+}
+
+a {
+	text-decoration:none;
+	cursor: pointer;
+}
+
+a.jexpand {
+	color: blue;
+}
+
+a.jexpanded {
+	color: purple;
+}
+
+ul {
+	width: 860px;
+}
+
+ul.menu a:link, a:visited {
+	text-decoration: none;
+	width: 100px;
+	height: 25px;
+	display: block;
+	padding-left: 5px;
+}
+
+ul.menu a:hover, a:active {
+	background-color: #aabbbb
+}
+
+table,th,td {
+	border: 0px solid blue;
+	border-collapse: collapse;
+}
+
+div.title {
+	height: 5em;
+	width: 50em;
+	border-radius: 1em;
+	text-align: center;
+	padding: 1px;
+	//background-image: url("Untitled.png");
+	background-color: #aabbbb;
+	font-family: "Verdana", Geneva, sans-serif;
+	text-decoration: none;
+}
+
+div.content {
+	width: 50em;
+	margin: auto;
+}
+
+ul.menu {
+	border: 2px solid #888888;
+	width: 7em;
+	padding: 1em; 
+	background: #ccdddd;
+	border-radius: 0px;
+	margin: 0;
+	line-height: 1.75;
+	float: left;
+	list-style: none;
+}
+
+div.page-content {
+	border: 0px solid blue;
+	background: #dddddd;
+	padding: 1em 2em;
+	margin: 0px 10em;
+	width: 36em;
+	float: none;
+}
+
+div.subcontent {
+	border: 0px solid blue;
+	padding-left: 50px;
+	float: none;
+}
