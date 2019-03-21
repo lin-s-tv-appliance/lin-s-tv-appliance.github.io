@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lin's TV and Appliance</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script type="text/javascript">
+	window.onload = function(e) {
+		var tel1 = "(&#057;&#055;&#057;)";
+		var tel2 = "&#056;&#052;&#054;";
+		var tel3 = "&#050;&#049;&#048;&#048;";
+		var tel4 = "(&#056;&#055;&#055;)";
+		var tel5 = "&#056;&#054;&#051;";
+		var tel6 = "&#048;&#053;&#057;&#057;";
+		var user = "&#108;&#105;&#110;&#115;&#116;&#118;&#118;&#099;&#114;";
+		var host = "&#097;&#111;&#108;&#046;&#099;&#111;&#109;";
+		var phone1 = tel1 + " " + tel2 + "&#45;" + tel3;
+		var phone2 = tel4 + " " + tel5 + "&#45;" + tel6;
+		var loc = user + "&#64;" + host;
+		document.getElementById("phone").innerHTML = phone1 + "<br/>" + phone2 + " (toll-free, 24/7)";
+		document.getElementById("loc").innerHTML = "<a href='" + "&#109;&#097;&#105;&#108;" + "&#116;&#111;:" + user + "&#64;" + host + "'>" + loc + "</a>";
+	}
+</script>
+</head>
+
+<body>
+<div class="title"><h1>Lin's TV and Appliance</h1></div>
+<br/>
+<div class="content">
+	<div>
+
+	<ul class="menu">
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="services.html">Services</a>
+		</li>
+		<li>
+			<a href="location.html">Location</a>
+		</li>
+		<li>
+			<a href="about.html">About Us</a>
+		</li>
+		<li>
+			<a href="contact.html">Contact</a>
+		</li>
+	</ul>
+	</div>
+
+	<div class="page-content">
+		<h3>Contact</h3>
+		<p>Lin's TV Service<br/>4662 Raymond Stotzer Pkwy<br/>College Station, TX 77845</p>
+		<p>Mon - Fri, 9:00 a.m. - 6:00 p.m.</p>
+		<p id="phone"></p>
+		<p id="loc"></p>
+
+	</div>
+</div>
+</body>
+</html>
