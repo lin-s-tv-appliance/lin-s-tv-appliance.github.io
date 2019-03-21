@@ -10,6 +10,8 @@ div {
 
 p {
 	font-size: 1em;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 a {
@@ -27,6 +29,8 @@ a.jexpanded {
 
 ul {
 	width: 860px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 ul.menu a:link, a:visited {
