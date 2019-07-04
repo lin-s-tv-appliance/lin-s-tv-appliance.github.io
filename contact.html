@@ -9,15 +9,11 @@
 		var tel1 = "(&#057;&#055;&#057;)";
 		var tel2 = "&#056;&#052;&#054;";
 		var tel3 = "&#050;&#049;&#048;&#048;";
-		var tel4 = "(&#056;&#055;&#055;)";
-		var tel5 = "&#056;&#054;&#051;";
-		var tel6 = "&#048;&#053;&#057;&#057;";
 		var user = "&#108;&#105;&#110;&#115;&#116;&#118;&#118;&#099;&#114;";
 		var host = "&#097;&#111;&#108;&#046;&#099;&#111;&#109;";
 		var phone1 = tel1 + " " + tel2 + "&#45;" + tel3;
-		var phone2 = tel4 + " " + tel5 + "&#45;" + tel6;
 		var loc = user + "&#64;" + host;
-		document.getElementById("phone").innerHTML = phone1 + "<br/>" + phone2 + " (toll-free, 24/7)";
+		document.getElementById("phone").innerHTML = phone1;
 		document.getElementById("loc").innerHTML = "<a href='" + "&#109;&#097;&#105;&#108;" + "&#116;&#111;:" + user + "&#64;" + host + "'>" + loc + "</a>";
 	}
 </script>
